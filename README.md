@@ -5,12 +5,12 @@ This workshop will provide an overview of JavaScript as a programming language a
 
 ## Introduction
 
-JavaScript is an intepreted programming language that can run in all modern web browsers. JavaScript also can be used to build server applications and databases. 
+JavaScript is an interpreted programming language that can run in all modern web browsers. JavaScript also can be used to build server applications and databases. 
 
 ### JavaScript basics
 
 * Using various objects types to store information
-* Functions let us calcualte adn transform information 
+* Functions let us calculate and transform information 
 * We controlling flow of information through loops and conditional statements
 
 ### Walking skeleton
@@ -19,7 +19,7 @@ Let's setup the minimal amount of code that connects our various systems (client
 
 ## Creating an API
 
-An application programming interface (API) is a fancy name for a structured name of a system that help you send and receive information from a different system. We use APIs to get social media activity streams and to create articles within a content managment system (CMS). You interact with dozens of APIs every day. We will build basic API routes in JavaScript to send inspection data and have that date stored within a database.
+An application programming interface (API) is a fancy name for a structured name of a system that help you send and receive information from a different system. We use APIs to get social media activity streams and to create articles within a content management system (CMS). You interact with dozens of APIs every day. We will build basic API routes in JavaScript to send inspection data and have that date stored within a database.
 
 ### GET
 
@@ -51,4 +51,4 @@ Does our application function like we expect? How can we prevent future work fro
 
 ## Deployment
 
-Now we need to showoff our work! Let's deploy our application and discuss considerations for your software devevelopment life cycle (SDLC).
+Now we need to showoff our work! Let's deploy our application and discuss considerations for your software development life cycle (SDLC).
