@@ -7,7 +7,7 @@ This workshop will provide an overview of JavaScript as a programming language a
 
 JavaScript is an interpreted programming language that can run in all modern web browsers. JavaScript also can be used to build server applications and databases. 
 
-### JavaScript basics
+### [JavaScript fundamentals](fundamentals.md)
 
 * Using various objects types to store information
 * Functions let us calculate and transform information 
