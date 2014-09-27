@@ -7,7 +7,7 @@ This workshop will provide an overview of JavaScript as a programming language a
 
 JavaScript is an interpreted programming language that can run in all modern web browsers. JavaScript also can be used to build server applications and databases. 
 
-### [JavaScript fundamentals](fundamentals.md)
+### [JavaScript fundamentals](fundamentals/fundamentals.md)
 
 * Using various objects types to store information
 * Functions let us calculate and transform information 
@@ -17,7 +17,7 @@ JavaScript is an interpreted programming language that can run in all modern web
 
 Let's setup the minimal amount of code that connects our various systems (client, server and database) together in order to build an application to store and retrieve environment inspection data.
 
-## Creating an API
+## [Creating an API](api/api.md)
 
 An application programming interface (API) is a fancy name for a structured name of a system that help you send and receive information from a different system. We use APIs to get social media activity streams and to create articles within a content management system (CMS). You interact with dozens of APIs every day. We will build basic API routes in JavaScript to send inspection data and have that date stored within a database.
 
@@ -37,6 +37,10 @@ What if we need to edit a record? We'll use a PUT request.
 
 A DELETE request removes a record from our database.
 
+## Deployment
+
+Now we need to showoff our work! Let's deploy our application and discuss considerations for your software development life cycle (SDLC).
+
 ## Frontend
 
 Let's build a web page that helps us use our API in a more friendly manner. We can think about this webpage as a graphical user interface (GUI) for our API.
@@ -49,6 +53,3 @@ Angular is a JavaScript framework that helps us with the data binding (along wit
 
 Does our application function like we expect? How can we prevent future work from accidentally breaking previous work? We'll touch on functional and unit tests.
 
-## Deployment
-
-Now we need to showoff our work! Let's deploy our application and discuss considerations for your software development life cycle (SDLC).
