@@ -56,3 +56,6 @@ Great place for documenting your endpoints or to display your links.
 
 Follow the official [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up) guide
 
+### Nodemon for easier local development
+
+### Angular for single page app
