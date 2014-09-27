@@ -37,6 +37,10 @@ What if we need to edit a record? We'll use a PUT request.
 
 A DELETE request removes a record from our database.
 
+## Deployment
+
+Now we need to showoff our work! Let's deploy our application and discuss considerations for your software development life cycle (SDLC).
+
 ## Frontend
 
 Let's build a web page that helps us use our API in a more friendly manner. We can think about this webpage as a graphical user interface (GUI) for our API.
@@ -49,6 +53,3 @@ Angular is a JavaScript framework that helps us with the data binding (along wit
 
 Does our application function like we expect? How can we prevent future work from accidentally breaking previous work? We'll touch on functional and unit tests.
 
-## Deployment
-
-Now we need to showoff our work! Let's deploy our application and discuss considerations for your software development life cycle (SDLC).
