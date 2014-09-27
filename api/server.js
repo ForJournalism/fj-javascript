@@ -51,6 +51,47 @@ router.route('/links')
     })
   });
 
+router.route('/links/:link_id')
+
+  .get(function(req, res) {
+    Link.findById(req.params.link_id, function(err, link) {
+      if (err)
+        res.send(err);
+      res.json(link);
+    });
+  })
+
+  .put(function(req, res) {
+
+    Link.findById(req.params.link_id, function(err, link) {
+
+      if (err)
+        res.send(err);
+
+      link.url = req.body.url;
+      link.description = req.body.description;
+
+      link.save(function(err) {
+        if (err)
+          res.send(err);
+
+        res.json({ message: 'Link updated!' });
+      });
+
+    });
+  })
+
+  .delete(function(req, res) {
+    Link.remove({
+      _id: req.params.link_id
+    }, function(err, link) {
+      if (err)
+        res.send(err);
+
+      res.json({ message: 'Deleted.' });
+    });
+  });
+
 app.use('/api', router);
 
 app.listen(port);

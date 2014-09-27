@@ -161,10 +161,80 @@ Add to server.js withing the `/links` route as another verb
 });
 ```
 
+### Routes for a single link
+
+#### GET a single link by ID
+
+Add to server.js
+
+```
+router.route('/links/:link_id')
+
+  .get(function(req, res) {
+    Link.findById(req.params.link_id, function(err, link) {
+      if (err)
+        res.send(err);
+      res.json(link);
+    });
+  });
+```
+
+Send a GET to a specific _ID value and get a response.
+
+#### Edit the link with PUT
+
+Add to server.js while also removing the semicolon to properly chain
 
 
+```
+.put(function(req, res) {
 
+  Link.findById(req.params.link_id, function(err, link) {
 
+    if (err)
+      res.send(err);
 
+    link.url = req.body.url;
+    link.description = req.body.description;
+
+    link.save(function(err) {
+      if (err)
+        res.send(err);
+
+      res.json({ message: 'Link updated!' });
+    });
+
+  });
+});
+```
+
+Now we'll send a PUT request to change the url and description.
+
+Then use a GET request to confirm the update succeeded. 
+
+Let's make our PUT fail by introducing a typo and then debug. Good to write tests and error handlers.
+
+#### Delete a link with DELETE
+
+Add to server.js while removing semicolon to allow for proper chaining
+
+```
+.delete(function(req, res) {
+  Link.remove({
+    _id: req.params.link_id
+  }, function(err, link) {
+    if (err)
+      res.send(err);
+
+    res.json({ message: 'Deleted.' });
+  });
+});
+```
+
+Send the DELETE request.
+
+Send a GET to the same endpoint.
+
+Send a GET to the /links endpoint to see you still have links but not the one you deleted.
 
 
