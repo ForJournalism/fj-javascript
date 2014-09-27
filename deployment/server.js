@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 
 var Link = require('./app/models/link');
 
-mongoose.connect('mongodb://test:test@ds041140.mongolab.com:41140/fj-test');
+mongoose.connect(db.url);
 
 var port = process.env.PORT || 8080;
 
