@@ -129,6 +129,7 @@ router.route('/links')
     
     var link = new Link();
     link.url = req.body.url;
+    link.description = req.body.description;
   
     link.save(function(err) {
       if (err)
