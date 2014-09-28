@@ -3,6 +3,8 @@ fj-javascript
 
 This workshop will provide an overview of JavaScript as a programming language and relevant journalism uses.
 
+[Screencast from ONA14](https://vimeo.com/107358374) (1:53)
+
 ## Introduction
 
 JavaScript is an interpreted programming language that can run in all modern web browsers. JavaScript also can be used to build server applications and databases. 
