@@ -4,7 +4,7 @@ This tutorial is heavily based on a [Scotch.io tutorial](http://scotch.io/tutori
 
 ## Download first 
 
-1. [Postman](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en)
+1. [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop)
 
 ## Simple API server
 
