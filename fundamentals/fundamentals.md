@@ -113,6 +113,8 @@ birthdate.month = 06;
 birthdate.day = 13;
 birthdate.year = 1980;
 
+birthdate
+
 ## Let's use a Date() object instead
 
 var birthdate = new Date(1980,06,13,0,0,0,0);
@@ -131,6 +133,7 @@ var invited = ["Lucy","Tibby","Autumn"];
 ## We look up using an index
 
 invited[1]
+invited[0]
 
 ## Add more information
 
@@ -187,5 +190,5 @@ for (var i = 0; i < invitations.length; i++) {
   }
 };
 
-### What about more complicated finding, sorting and filtering? Use http://underscorejs.org/
+### What about more complicated finding, sorting and filtering? Use http://underscorejs.org/ or https://lodash.com/
 
