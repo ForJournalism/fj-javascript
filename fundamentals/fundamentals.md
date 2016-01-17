@@ -65,6 +65,9 @@ birthday = function(number) {
   return number
 }
 
+age = 34
+birthday(age)
+
 ### What is our age?
 
 age
@@ -77,6 +80,9 @@ birthday = function(age) {
   candles = age
   return age
 }
+
+age = 34
+birthday(age)
 
 age
 candles
